@@ -1,0 +1,3 @@
+# Silent HTTP Error Handling in Asynchronous Dart Code
+
+This repository demonstrates a common error in asynchronous Dart code:  incorrect handling of HTTP errors which can lead to unexpected application behavior. The provided example uses the `http` package to make an API request.  The initial code lacks proper error handling, leading to potential silent failures. The solution demonstrates robust error handling, which prevents these issues.
